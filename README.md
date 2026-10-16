@@ -1,5 +1,7 @@
 # Texar-organizer
 Este es un pequeño proyecto mío desarrollado por mi falta de organización, soy una persona que se organiza muy mal y todas las aplicaciones de organización no cumplen mis expectativas o son de pago, así que he decidido desarrollar la mía propia usando claude, así puedo ver que hasta que límites puede llegar la IA experimentando cada capacidad suya, y aparte obtengo un resultado que puede serme útil a mi y alguna que otra persona: una aplicación para organizarse bastante intuitiva y de código abierto, espero que os guste.
+</br>
+</br>
 
-Windows: Claude + electron
+Windows: Claude + electron </br>
 Android: Claude + Capacitor
