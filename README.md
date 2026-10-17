@@ -3,5 +3,12 @@ Este es un pequeño proyecto mío desarrollado por mi falta de organización, so
 </br>
 </br>
 
+<img width="1679" height="998" alt="imagen_2026-10-17_183329133" src="https://github.com/user-attachments/assets/971dc72d-5def-490a-905f-4469dc7d538e" />
+<img width="1679" height="998" alt="imagen_2026-10-17_183354288" src="https://github.com/user-attachments/assets/ac809349-c33e-4ae3-a06b-7d0c42e625f7" />
+<img width="1679" height="998" alt="imagen_2026-10-17_183444628" src="https://github.com/user-attachments/assets/5c078d9e-6f1a-42bf-b18a-b4ccde967040" />
+
+
+
+
 Windows: Claude + electron </br>
 Android: Claude + Capacitor
