@@ -65,7 +65,7 @@ Disponible para **Windows** (Electron) y **Android** (Capacitor), a partir de **
 - **Exportar a calendario (.ics)** para Google Calendar, Apple Calendar u Outlook.
 
 ### Avisos (notificaciones)
-- Notificaciones nativas del sistema en **Windows, Android e iOS**. Ver [Notificaciones](#notificaciones).
+- Notificaciones nativas del sistema en **Windows, Android**. Ver [Notificaciones](#notificaciones).
 
 ---
 
@@ -75,7 +75,7 @@ Disponible para **Windows** (Electron) y **Android** (Capacitor), a partir de **
 |---|---|
 | Interfaz y lógica | **HTML + CSS + JavaScript** puro (sin frameworks ni paso de compilación) |
 | App de escritorio (Windows) | **[Electron](https://www.electronjs.org/)** 33 + **electron-builder** 25 (instalador NSIS) |
-| App móvil (Android / iOS) | **[Capacitor](https://capacitorjs.com/)** 7 |
+| App móvil (Android) | **[Capacitor](https://capacitorjs.com/)** 7 |
 | Avisos en móvil | `@capacitor/local-notifications` |
 | Barra de estado (Android) | `@capacitor/status-bar` |
 | Iconos móviles | `@capacitor/assets` |
@@ -253,32 +253,6 @@ Si el proyecto de Android ya existía antes, comprueba que `android/app/src/main
 - Activa "Alarmas y recordatorios" para la app (Android 12 o superior).
 - Quita el ahorro de batería a la app y permite el inicio automático (Xiaomi, Huawei, Samsung, Oppo… lo restringen por defecto).
 
-### iOS
-
-Requiere un **Mac con Xcode**. Desde Windows no es posible compilar para iOS.
-
-```bash
-cd texar-organizer-mobile
-npm install
-npm run ios:init
-npm run ios:open
-```
-
-En Xcode: *Signing & Capabilities* › elige tu cuenta de Apple en *Team* y, si hace falta, cambia el *Bundle Identifier*. Conecta el iPhone, activa el modo desarrollador y pulsa ▶.
-
-Con una cuenta de Apple gratuita, la app caduca a los 7 días y hay que reinstalarla. Para repartirla por TestFlight o la App Store hace falta el programa de desarrolladores de Apple (de pago). *La versión de iOS está preparada pero no se ha probado.*
-
-### Actualizar la app tras cambiar el código
-Copia el `index.html` nuevo a las dos carpetas y vuelve a compilar:
-
-```bash
-# Escritorio
-cp index.html texar-organizer-desktop/index.html
-# Móvil
-cp index.html texar-organizer-mobile/www/index.html
-cd texar-organizer-mobile && npm run android:sync   # o ios:sync
-```
-
 ---
 
 ## Copia de seguridad
@@ -326,7 +300,7 @@ Las imágenes de fondo añadidas por el usuario **no** entran en la copia de seg
 - Los festivos de años distintos de 2026 **no son oficiales** y pueden no incluir los traslados a lunes de cada comunidad ni los festivos por isla de Canarias.
 - No incluye los **festivos locales** de cada municipio (se pueden añadir a mano).
 - Las fuentes se cargan de Google Fonts; sin conexión se usa una tipografía del sistema.
-- El soporte de iOS está sin probar.
+- El soporte de linux está sin probar.
 
 ---
 
