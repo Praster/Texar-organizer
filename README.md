@@ -230,10 +230,8 @@ El instalador queda en `dist/` (`Texar Organizer Setup X.Y.Z.exe`). La carpeta `
 
 Si fallan el .deb ejecutar en la terminal en la carpeta donde este el deb:
 ```bash
-sudo apt install -y ~/texar-organizer/dist/Texar-Organizer-x.x.x-amd64.deb
+sudo apt install -y /(Ruta de la carpeta + nombre de la app entera)
 ```
-Sustituye las x del comando por los números de la versión de la app.
-
 ### Android
 
 Requisito adicional: **[Android Studio](https://developer.android.com/studio)**.
