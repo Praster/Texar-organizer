@@ -232,6 +232,12 @@ Si fallan el .deb ejecutar en la terminal en la carpeta donde este el deb:
 ```bash
 sudo apt install -y /(Ruta de la carpeta + nombre de la app entera)
 ```
+
+Y para desinstalar Texar organizer:
+```bash
+sudo apt remove texar-organizer
+```
+
 ### Android
 
 Requisito adicional: **[Android Studio](https://developer.android.com/studio)**.
