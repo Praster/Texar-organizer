@@ -226,6 +226,14 @@ El instalador queda en `dist/` (`Texar Organizer Setup X.Y.Z.exe`). La carpeta `
 - Si la compilación se corta con el error *"Cannot create symbolic link"*, activa el **Modo desarrollador** de Windows (Configuración › Sistema › Para desarrolladores) o abre la terminal como administrador.
 - Para ver las notificaciones, revisa Configuración › Sistema › Notificaciones y que "No molestar" esté desactivado.
 
+### Linux
+
+Si fallan el .deb ejecutar en la terminal en la carpeta donde este el deb:
+```bash
+sudo apt install -y ~/texar-organizer/dist/Texar-Organizer-x.x.x-amd64.deb
+```
+Sustituye las x del comando por los números de la versión de la app.
+
 ### Android
 
 Requisito adicional: **[Android Studio](https://developer.android.com/studio)**.
