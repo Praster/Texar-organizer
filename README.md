@@ -230,9 +230,10 @@ El instalador queda en `dist/` (`Texar Organizer Setup X.Y.Z.exe`). La carpeta `
 
 Si fallan el .deb ejecutar en la terminal en la carpeta donde este el deb:
 ```bash
-cp ~/(nombre carpeta)/Texar-Organizer-x.x.x-amd64.deb /tmp/
-sudo apt install -y /tmp/Texar-Organizer-1.2.3-amd64.deb
-rm /tmp/Texar-Organizer-1.2.3-amd64.deb
+cp ~/(directorio + nombre de archivo) /tmp/    ejemplo: cp ~/Descargas/Texar-Organizer-1.2.3-amd64.deb /tmp/
+
+sudo apt install -y /tmp/Texar-Organizer-x.x.x-amd64.deb
+rm /tmp/Texar-Organizer-x.x.x-amd64.deb
 sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 ```
 
